@@ -4,22 +4,19 @@
     <data-source source="LOCAL" name="Rails sample_app: development" uuid="d8e24dda-fc74-491f-808a-96069911fd48">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:sample_app_development</jdbc-url>
-      <user-name>sample_app</user-name>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/sample_app_development</jdbc-url>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails sample_app: test" uuid="cdc5198f-9920-4612-a2f1-3d6ce22dab7a">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:sample_app_test</jdbc-url>
-      <user-name>sample_app</user-name>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/sample_app_test</jdbc-url>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails sample_app: production" uuid="39e785c2-dd0f-4d18-9172-f623b45bad8c">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:sample_app_production</jdbc-url>
-      <user-name>sample_app</user-name>
       <libraries />
     </data-source>
   </component>
